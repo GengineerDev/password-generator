@@ -1,0 +1,80 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background: #1c1c1c;
+    display: flex;
+    height: 100vh; /*important to state for centering*/
+    color: white;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 10% 5%;
+    margin: auto;
+    width: 550px;
+    height: 550px;
+    background-color: #1f2937;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Karla', sans-serif;
+    font-size: 40px;   
+
+}
+
+button {
+    border: none;
+    background: none;
+    margin-top: 50px;
+    background: #10B981;
+    max-width: 190px;
+    font-family: 'Inter', sans-serif;
+    border-radius: 6px;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+    color: white;
+    margin-bottom: 35px;
+}
+
+p {
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+.green {
+    color: #4adf86;
+}
+
+.break {
+    border: 1px solid #2f3e53;
+}
+
+.bottom {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rectangle {
+    display: inline;
+    width: 210px;
+    height: 40px;
+    background: #273549;
+    border-radius: 6px;
+    color: #55f991;
+    font-family: 'Inter',sans-serif;
+    text-align: center;
+
+}
