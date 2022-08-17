@@ -15,7 +15,7 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    padding: 10% 5%;
+    padding: 100px 40px;
     margin: auto;
     width: 550px;
     height: 550px;
@@ -87,4 +87,16 @@ p {
     font-family: 'Inter',sans-serif;
     text-align: center;
 
+}
+
+@media (max-width: 450px) {
+    .bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rectangle {
+        margin: 2% 0;
+    }
 }
