@@ -46,6 +46,15 @@ button {
     gap: 12px;
     color: white;
     margin-bottom: 35px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background: #33f1b1;
+}
+
+button:active{
+    background:#32a680;
 }
 
 
